@@ -18,8 +18,9 @@
 package com.bilibili.boxing.impl;
 
 import android.graphics.Bitmap;
-import android.support.annotation.NonNull;
 import android.widget.ImageView;
+
+import androidx.annotation.NonNull;
 
 import com.bilibili.boxing.demo.R;
 import com.bilibili.boxing.loader.IBoxingCallback;

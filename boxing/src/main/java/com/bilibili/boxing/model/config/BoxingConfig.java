@@ -19,7 +19,8 @@ package com.bilibili.boxing.model.config;
 
 import android.os.Parcel;
 import android.os.Parcelable;
-import android.support.annotation.DrawableRes;
+
+import androidx.annotation.DrawableRes;
 
 /**
  * The pick config.<br/>

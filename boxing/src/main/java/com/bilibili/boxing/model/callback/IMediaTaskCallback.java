@@ -18,7 +18,7 @@
 package com.bilibili.boxing.model.callback;
 
 
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 
 import com.bilibili.boxing.model.entity.BaseMedia;
 

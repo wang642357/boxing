@@ -3,9 +3,10 @@ package com.bilibili.boxing.ui;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
 import android.text.TextUtils;
 import android.widget.Toast;
+
+import androidx.annotation.Nullable;
 
 import com.bilibili.boxing.demo.R;
 import com.bilibili.boxing.model.BoxingManager;

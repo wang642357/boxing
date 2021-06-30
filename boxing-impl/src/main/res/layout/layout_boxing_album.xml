@@ -22,12 +22,12 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <android.support.v7.widget.RecyclerView
+    <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/album_recycleview"
         android:layout_width="match_parent"
         android:layout_height="300dp"
         android:background="@color/boxing_white"
-        android:scrollbars="vertical"/>
+        android:scrollbars="vertical" />
 
     <View
         android:id="@+id/album_shadow"

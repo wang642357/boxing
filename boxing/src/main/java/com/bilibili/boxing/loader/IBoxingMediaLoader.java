@@ -17,8 +17,9 @@
 
 package com.bilibili.boxing.loader;
 
-import android.support.annotation.NonNull;
 import android.widget.ImageView;
+
+import androidx.annotation.NonNull;
 
 /**
  * Define how media display.

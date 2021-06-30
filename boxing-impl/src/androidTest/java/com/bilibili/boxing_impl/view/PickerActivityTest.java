@@ -20,8 +20,9 @@ package com.bilibili.boxing_impl.view;
 import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
-import android.support.test.InstrumentationRegistry;
-import android.support.test.runner.AndroidJUnit4;
+
+import androidx.test.ext.junit.runners.AndroidJUnit4;
+import androidx.test.platform.app.InstrumentationRegistry;
 
 import com.bilibili.boxing.Boxing;
 import com.bilibili.boxing.model.BoxingManager;

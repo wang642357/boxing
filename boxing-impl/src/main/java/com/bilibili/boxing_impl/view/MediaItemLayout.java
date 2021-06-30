@@ -19,8 +19,6 @@ package com.bilibili.boxing_impl.view;
 
 import android.content.Context;
 import android.content.res.Configuration;
-import android.support.annotation.DrawableRes;
-import android.support.annotation.NonNull;
 import android.text.TextUtils;
 import android.util.AttributeSet;
 import android.view.LayoutInflater;
@@ -28,6 +26,10 @@ import android.view.View;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import androidx.annotation.DrawableRes;
+import androidx.annotation.NonNull;
+import androidx.recyclerview.widget.RecyclerView;
 
 import com.bilibili.boxing.BoxingMediaLoader;
 import com.bilibili.boxing.model.BoxingManager;
@@ -40,7 +42,7 @@ import com.bilibili.boxing_impl.WindowManagerHelper;
 
 
 /**
- * A media layout for {@link android.support.v7.widget.RecyclerView} item, including image and video <br/>
+ * A media layout for {@link RecyclerView} item, including image and video <br/>
  *
  * @author ChenSL
  */

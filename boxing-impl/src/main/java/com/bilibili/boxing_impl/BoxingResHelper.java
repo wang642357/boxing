@@ -1,6 +1,6 @@
 package com.bilibili.boxing_impl;
 
-import android.support.annotation.DrawableRes;
+import androidx.annotation.DrawableRes;
 
 import com.bilibili.boxing.model.BoxingManager;
 

@@ -20,8 +20,9 @@ package com.bilibili.boxing.model.task.impl;
 import android.content.ContentResolver;
 import android.database.Cursor;
 import android.provider.MediaStore;
-import android.support.annotation.NonNull;
-import android.support.annotation.WorkerThread;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.WorkerThread;
 
 import com.bilibili.boxing.model.callback.IMediaTaskCallback;
 import com.bilibili.boxing.model.entity.impl.VideoMedia;

@@ -21,10 +21,11 @@ import android.content.ContentResolver;
 import android.database.Cursor;
 import android.os.Build;
 import android.provider.MediaStore.Images;
-import android.support.annotation.NonNull;
-import android.support.annotation.WorkerThread;
-import android.support.v4.util.ArrayMap;
 import android.text.TextUtils;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.WorkerThread;
+import androidx.collection.ArrayMap;
 
 import com.bilibili.boxing.model.BoxingManager;
 import com.bilibili.boxing.model.callback.IMediaTaskCallback;
